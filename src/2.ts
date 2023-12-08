@@ -33,8 +33,7 @@ class Employee {
 
 class Manager extends Employee {
   constructor() {
-    super("Manager", "Finance", 0)
-    this.salary += 10000
+    super("Manager", "Finance", 1000)
   }
   // Реалізуйте конструктор та збільшіть salary на 10000
 }
